@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos de caché y de compilación de Simulink
+*.slxc
+slprj/
+sf_prj/
+
+# Copias de seguridad automáticas y respaldos de versiones anteriores
+*.slx.r*
+*.slx.autosave
+*.m.autosave
+*.asv
+
+# Archivos de código generado y temporales de MATLAB
+codegen/
+*.log
+*.mex*
